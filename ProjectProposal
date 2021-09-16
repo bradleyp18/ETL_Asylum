@@ -1,1 +1,19 @@
+Project Proposal - Global Asylum Data
 
+Team member: Kori, Brad, Dan C
+
+Data Source:
+Kaggle, Saurabh Patra, “Global Asylum Data (2000 - present)”. 
+
+The datasets come in two separate .csv files
+asylum-applications.csv
+asylum-decisions.csv 
+
+Data Extraction: 
+Our two .csv files mentioned above will simply be downloaded into our jupyter notebook, there, we will begin our transformation process. 
+
+Data Transformation: 
+Our data transformation will begin by removing years that are not mentioned in both datasets. The decisions data set is as early as 2000, whereas, the applications dataset begins in 2006. Once removed, using python, we will want to create a combined key that will allow us to uniquely identify the origin-destination of the asylum seekers. 
+
+Storage of Data (Data Loading):
+We intend to store our final database in a SQL database (pgAdmin4) as our data comes structured. 
