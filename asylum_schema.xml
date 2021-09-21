@@ -1,0 +1,13 @@
+-- Create tables for raw data to be loaded into
+CREATE TABLE us_asylum (
+id INT PRIMARY KEY,
+year INT,
+country_of_origin TEXT,
+country_of_asylum TEXT,
+applied INT,
+recognized_decisions INT,
+complementary_protection INT,
+rejected_decisions INT,
+otherwise_closed INT,
+total_decisions INT
+);
